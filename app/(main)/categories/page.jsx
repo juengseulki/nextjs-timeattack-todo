@@ -1,5 +1,5 @@
-import CategoryCard from "@/components/CategoryCard";
-import { getCategories } from "@/lib/categoryApi";
+import CategoryCard from "@/app/components/CategoryCard";
+import { getCategories } from "@/app/lib/categoryApi";
 
 export const metadata = {
   title: "카테고리 목록 | Todo App",
