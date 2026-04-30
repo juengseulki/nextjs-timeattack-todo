@@ -1,6 +1,6 @@
 import Link from "next/link";
-import TodoForm from "@/components/TodoForm";
-import { getCategories } from "@/lib/categoryApi";
+import TodoForm from "@/app/components/TodoForm";
+import { getCategoties } from "@/app/lib/categoryApi";
 
 export const metadata = {
   title: "Todo 추가 | Todo App",

@@ -6,7 +6,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-slate-50">
       <section className="mx-auto flex max-w-5xl flex-col items-center px-6 py-20 text-center">
         <Image
-          src=""
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjAgN3z7IXY0PaWqDetqbiJpYFWB3SYzClZw&s"
           alt="Todo 웹 소개 이미지"
           width={220}
           height={220}

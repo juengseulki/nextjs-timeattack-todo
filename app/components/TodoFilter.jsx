@@ -37,7 +37,7 @@ export default function TodoFilter({ categories }) {
             ["all", "전체"],
             ["false", "진행중"],
             ["true", "완료"],
-          ].map(([isValueExpired, label]) => (
+          ].map(([value, label]) => (
             <button
               key={value}
               type="button"

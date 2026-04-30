@@ -1,6 +1,6 @@
 import { BASE_URL, assertBaseUrl } from "./api";
 
-export async function getCategoties() {
+export async function getCategories() {
   assertBaseUrl();
 
   const res = await fetch(`${BASE_URL}/categories`, {
